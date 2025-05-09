@@ -1,6 +1,7 @@
 {
   "name": "trippilot",
   "private": true,
+  "homepage": "https://github.com/harmostparmod15/trip_pilot",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+
   },
+  
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
     "lucide-react": "^0.509.0",
