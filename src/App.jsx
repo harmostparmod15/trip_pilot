@@ -1,7 +1,18 @@
+import { useState } from "react";
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Body from "./components/Body";
 
 function App() {
-  return <div className="text-3xl text-red-300 "> trippilot</div>;
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Body />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;
