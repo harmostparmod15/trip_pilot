@@ -22,7 +22,7 @@ const Navbar = () => {
           {/* Logo and brand */}
           <div
             onClick={navigateToHome}
-            className="flex-shrink-0 flex items-center"
+            className="cursor-pointer flex-shrink-0 flex items-center"
           >
             <div className="flex items-center">
               <Globe className="h-8 w-8 text-blue-500" />
